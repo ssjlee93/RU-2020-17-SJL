@@ -25,7 +25,7 @@ const workoutSchema = new Schema(
         },
         weight: {
           type: Number,
-          required: "Enter an exercise weight in kg"
+          required: "Enter an exercise weight in lbs"
         },
         reps: {
           type: Number
